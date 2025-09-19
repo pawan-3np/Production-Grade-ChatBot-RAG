@@ -1,0 +1,23 @@
+
+
+# Backend
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+pymongo
+pdfplumber
+numpy
+tiktoken
+google-generativeai
+google-genai
+transformers
+
+# Frontend
+streamlit
+requests
+
+# Optional
+faiss-cpu
+pytest
+httpx
