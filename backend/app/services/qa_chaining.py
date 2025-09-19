@@ -2,7 +2,6 @@ from backend.app.services.retriever import retrieve
 from backend.app.config import settings
 from google import genai
 
-
 def answer_question(question: str):
     retrieved = retrieve(question, settings.TOP_K)
 

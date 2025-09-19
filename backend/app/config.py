@@ -1,8 +1,8 @@
 import os
-from pydantic import BaseSetting
+from pydantic_settings import BaseSettings
 
-class Settings(BaseSetting):
-    GEMINI_API_KEY: str
+class Settings(BaseSettings):
+    GEMINI_API_KEY: str = None
     MONGODB_URI: str = "mongodb://localhost:27017"
     MONGODB_DB: str = "rag_agent"
     EBEDDING_MODEL: str = "gemini-embedding-001"
